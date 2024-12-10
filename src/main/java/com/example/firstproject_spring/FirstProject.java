@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class FirstProject {
 
-    @RequestMapping("/Hello")
+    @RequestMapping("/hello")
         public String sayHello(){
 
-        return "Hello";
+        return "hello";
         }
     }
 
